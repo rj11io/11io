@@ -155,6 +155,18 @@ export const projects: Project[] = [
     description: "Personal blog.",
   },
   {
+    name: "11labs",
+    url: "https://labs.rj11.io/",
+    period: "2026 — Present",
+    description: "AI Factory for micro software and tools.",
+  },
+  {
+    name: "thevibe.coach",
+    url: "https://www.thevibe.coach/",
+    period: "2026 — Present",
+    description: "AI Vibe Code Coaching.",
+  },
+  {
     name: "GitHub",
     url: "https://github.com/rj11io",
     period: "2023 — Present",
