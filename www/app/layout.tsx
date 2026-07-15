@@ -28,7 +28,7 @@ const serif = Newsreader({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.rj11.io"),
   title: {
-    default: "Ricardo Jorge — AI Product Engineer",
+    default: "Ricardo Jorge · AI Product Engineer",
     template: "%s · rj11.io",
   },
   description:
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "profile",
     url: "/",
-    title: "Ricardo Jorge — AI Product Engineer",
+    title: "Ricardo Jorge · AI Product Engineer",
     description:
       "Hands-on AI product engineering for production AI systems, data-driven products, and polished TypeScript experiences.",
     siteName: "rj11.io",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ricardo Jorge — AI Product Engineer",
+    title: "Ricardo Jorge · AI Product Engineer",
     description:
       "Hands-on AI product engineering for production AI systems, data-driven products, and polished TypeScript experiences.",
   },

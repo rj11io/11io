@@ -355,7 +355,7 @@ function Contact() {
         <em className="text-muted-foreground">Point me at it.</em>
       </h3>
       <p className="mt-6 max-w-prose text-[15px]/relaxed text-pretty text-foreground/80">
-        I&apos;m always open to exploring exceptional opportunities — AI
+        I&apos;m always open to exploring exceptional opportunities: AI
         products, data-heavy applications, or production foundations. Reach out
         if you&apos;re keen on working together.
       </p>
