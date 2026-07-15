@@ -64,7 +64,7 @@ export const experience: Job[] = [
     url: "https://www.rj11.io",
     period: "2025–Present",
     summary:
-      "Hands-on AI product engineering for multiple early-stage startups: AI data extraction from PDFs, AI SEO analytics, a GenAI dermatopathology portal, cybersecurity dashboards, proprietary data explorers, AI chat experiences, smart scraping agents, and agent harnesses, skills, and automations.",
+      "Hands-on AI product engineering for multiple early-stage startups: AI data extraction from PDFs, AI SEO analytics, a GenAI dermatopathology portal, cybersecurity dashboards, proprietary data explorers, AI chat experiences, n8n workflows, and agent harnesses, skills, and automations.",
   },
   {
     role: "Product / Datavis Engineer",
@@ -72,7 +72,7 @@ export const experience: Job[] = [
     url: "https://hunt.io/",
     period: "2024–2025",
     summary:
-      "Went deep on my specialty, data visualisation, for a threat-intelligence product: custom dataviz components, core modules like AttackCapture™ and HuntSQL™, and a new API documentation platform built on OpenAPI.",
+      "Went deep on my specialty, data visualisation, for a threat-intelligence product: custom datavis components, core modules like AttackCapture™ and HuntSQL™, and a new API documentation platform built on OpenAPI.",
   },
   {
     role: "Senior Frontend Engineer → Team Lead",
@@ -142,30 +142,31 @@ export const projects: Project[] = [
     period: "2026–Present",
     description: "Open-source AI benchmarks.",
   },
-  {
-    name: "11intel",
-    url: "https://intel.rj11.io/",
-    period: "2026–Present",
-    description: "AI intel briefing reports in a blog format.",
-  },
-  {
-    name: "11blog",
-    url: "https://blog.rj11.io/",
-    period: "2023–Present",
-    description: "Personal blog.",
-  },
-  {
-    name: "11labs",
-    url: "https://labs.rj11.io/",
-    period: "2026–Present",
-    description: "AI Factory for micro software and tools.",
-  },
-  {
-    name: "thevibe.coach",
-    url: "https://www.thevibe.coach/",
-    period: "2026–Present",
-    description: "AI Vibe Code Coaching.",
-  },
+  // KEEP THESE COMMENTS UNTIL TOLD OTHERWISE
+  // {
+  //   name: "11intel",
+  //   url: "https://intel.rj11.io/",
+  //   period: "2026–Present",
+  //   description: "AI intel briefing reports in a blog format.",
+  // },
+  // {
+  //   name: "11blog",
+  //   url: "https://blog.rj11.io/",
+  //   period: "2023–Present",
+  //   description: "Personal blog.",
+  // },
+  // {
+  //   name: "11labs",
+  //   url: "https://labs.rj11.io/",
+  //   period: "2026–Present",
+  //   description: "AI Factory for micro software and tools.",
+  // },
+  // {
+  //   name: "thevibe.coach",
+  //   url: "https://www.thevibe.coach/",
+  //   period: "2026–Present",
+  //   description: "AI Vibe Code Coaching.",
+  // },
   {
     name: "GitHub",
     url: "https://github.com/rj11io",
@@ -206,6 +207,7 @@ export const skills: SkillGroup[] = [
       "Harness Engineering",
       "Codex",
       "Claude Code",
+      "n8n"
     ],
   },
   {
@@ -269,8 +271,8 @@ export const socials: Social[] = [
 export const nav = [
   { label: "About", href: "#about" },
   { label: "What I do", href: "#services" },
-  { label: "Work", href: "#work" },
-  { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Career", href: "#career" },
   { label: "Contact", href: "#contact" },
 ]

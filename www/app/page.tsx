@@ -214,7 +214,7 @@ function Services() {
 
 function Work() {
   return (
-    <Section id="work" no="03" title="Work">
+    <Section id="career" no="05" title="Career">
       <div className="space-y-12">
         {experience.map((job) => (
           <article
@@ -324,7 +324,7 @@ function Projects() {
 
 function Skills() {
   return (
-    <Section id="skills" no="05" title="Skills">
+    <Section id="skills" no="03" title="Skills">
       <div className="space-y-5">
         {skills.map((group) => (
           <div
@@ -416,9 +416,9 @@ export default function Page() {
         <div className="space-y-24 pb-28 sm:space-y-28">
           <About />
           <Services />
-          <Work />
-          <Projects />
           <Skills />
+          <Projects />
+          <Work />
           <Contact />
         </div>
       </main>
