@@ -38,9 +38,9 @@ export const services: Service[] = [
       "AI products, agent harnesses, custom skills, automations, chat experiences, and data-extraction systems.",
   },
   {
-    name: "Product & MVP Engineering",
+    name: "Full Stack Product Engineering",
     description:
-      "End-to-end product delivery, from architecture and design systems to testing, infrastructure, and release workflows.",
+      "End-to-end product delivery, from architecture and design systems to testing, infrastructure, and releases.",
   },
   {
     name: "Data Products & Technical Leadership",
