@@ -1,18 +1,22 @@
-# v1 app boilerplate
+# 11io website
 
-The reusable Next.js and shadcn/ui starter for v1 benchmark apps. It includes
-TypeScript, Tailwind CSS, theming, path aliases, and the shared UI component
-set.
+The personal website and portfolio for Ricardo Jorge, an AI Product Engineer.
+It is a Next.js app using TypeScript, Tailwind CSS, theme switching, and a
+shared shadcn/ui component set.
+
+The page structure is in `app/page.tsx`. Most visible copy, navigation, social
+links, project links, and career data live in `lib/site.ts`.
 
 ## Local development
 
-This app requires Node.js and npm. It does not currently use environment
-variables.
+This app requires Node.js and npm. Run the commands from this directory:
 
 ```bash
 npm install
 npm run dev
 ```
+
+The app does not read environment variables in its source code.
 
 ## Commands
 
@@ -27,7 +31,8 @@ npm run dev
 
 ## Adding components
 
-The shadcn/ui configuration writes components to `components/ui/`:
+The shadcn/ui configuration in `components.json` writes components to
+`components/ui/`:
 
 ```bash
 npx shadcn@latest add <component>
@@ -40,3 +45,8 @@ To use the components in your app, import them as follows:
 ```tsx
 import { Button } from "@/components/ui/button";
 ```
+
+## Editing the site
+
+Update the text and links in `lib/site.ts`. Change the page structure in
+`app/page.tsx` and site metadata in `app/layout.tsx`.
