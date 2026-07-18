@@ -4,7 +4,7 @@
     {
       "name": "dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "www", "run", "dev"],
+      "runtimeArgs": ["--prefix", "www", "run", "dev", "--port", "3100"],
       "port": 3100,
       "autoPort": true
     }
