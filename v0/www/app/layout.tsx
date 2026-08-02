@@ -50,6 +50,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/static/icon1.png", sizes: "16x16", type: "image/png" },
+      { url: "/static/icon2.png", sizes: "32x32", type: "image/png" },
+      { url: "/static/icon3.png", sizes: "192x192", type: "image/png" },
+      { url: "/static/icon4.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      {
+        url: "/static/apple-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
   openGraph: {
     type: "profile",
     url: "/",
@@ -61,12 +76,28 @@ export const metadata: Metadata = {
     firstName: "Ricardo",
     lastName: "Jorge",
     username: "rj11io",
+    images: [
+      {
+        url: "/static/rj11io-favicon-style-orange-og-v3.png",
+        width: 1200,
+        height: 630,
+        alt: "Ricardo Jorge · AI Product Engineer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ricardo Jorge · AI Product Engineer",
     description:
       "Hands-on AI product engineering for production AI systems, data-driven products, and polished TypeScript experiences.",
+    images: [
+      {
+        url: "/static/rj11io-favicon-style-orange-og-v3.png",
+        width: 1200,
+        height: 630,
+        alt: "Ricardo Jorge · AI Product Engineer",
+      },
+    ],
   },
   robots: {
     index: true,
