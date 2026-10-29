@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
-    <title>11io</title>
+    <title>Ricardo Jorge</title>
     <style>
       * {
         box-sizing: border-box;
@@ -28,14 +28,55 @@
         text-align: center;
       }
 
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 6vw, 3rem);
+        font-weight: 600;
+        letter-spacing: -0.04em;
+      }
+
       p {
+        margin: 0.5rem 0 0;
+        color: #aaaaaa;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.25em;
+      }
+
+      a:hover {
+        color: #ffffff;
+      }
+
+      a:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 5px;
+      }
+
+      .profile {
         margin: 0;
       }
     </style>
   </head>
   <body>
     <main>
-      <p>Something new is coming.</p>
+      <section class="profile" aria-labelledby="name">
+        <h1 id="name">Ricardo Jorge</h1>
+        <p>AI Engineer and Consultant</p>
+        <nav aria-label="Profile links">
+          <a href="https://cv.rj11.io/">CV</a>
+          <a href="https://www.linkedin.com/in/rj11io/" aria-label="LinkedIn">LI</a>
+          <a href="https://github.com/rj11io" aria-label="GitHub">GH</a>
+        </nav>
+      </section>
     </main>
   </body>
 </html>
